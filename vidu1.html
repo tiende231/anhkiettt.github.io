@@ -1,0 +1,1109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Q SHOP</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+    <style>
+        *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#container{
+    width: 100%;
+    height: 100%;
+    font-family: sans-serif;
+}
+#container header{
+    width: 100%;
+    height: 170px;
+    background-color: darkslategray;
+}
+#container header .logo{
+    width: 27%;
+    height: 120px;
+    line-height: 120px;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    float: left;
+    color: ghostwhite;
+}
+#container header .input{
+    width: 73%;
+    height: 40px;
+    float: left;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+#container header .input #input1{
+    width: 45%;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    float: left;
+    overflow: hidden;
+}
+#container header .input #input1 form select{
+    height: 40px;
+    width: 15%;
+    float: left;  
+    outline: none;
+    border: hidden;
+}
+#container header .input #input1 form input{
+    height: 40px;
+    width: 75%;
+    padding-left: 20px;
+    border-left: 1px solid gainsboro;
+    border-top: 2px white solid;
+    border-bottom: 2px white solid;
+    border-right: 2px white solid;
+    outline: none;
+    float: left;
+}   
+#container header .input button{
+    background-color: rgb(238, 101, 52);
+    color: white;
+    height: 40px;
+    width: 10%;
+    line-height: 40px;
+    border-radius: 5px;
+    float: left;
+    cursor: pointer;
+    border: hidden;
+    font-size: 16px;
+    outline: none;
+}
+#container header .input #input2{
+    width: 10%;
+    height: 40px;
+    float: left;
+}
+#container header .input #input2 button{
+    width: 100%;
+    height: 40px;
+    border: hidden;
+    outline: none;
+    cursor: pointer;
+    background-color: darkslategray;
+    font-size: 23px;
+    line-height: 40px;
+    color: white;
+}
+#container header .input #input3{
+    width: 18%;
+    height: 40px;
+    float: left;
+    line-height: 20px;
+    color: white;
+    font-size: 13px;
+}
+#container header .input #input4{
+    width: 5%;
+    height: 40px;
+    float: left;
+}
+#container header .input #input4 button{
+    border: hidden;
+    outline: none;
+    cursor: pointer;
+    line-height: 40px;
+    font-size: 20px;
+    background-color: rgb(238, 101, 52);
+    color: white;
+    border-radius: 5px;
+    width: 100%;
+    height: 40px;
+}
+#container header .input #input4 button:hover{
+    border-radius: 0;
+}
+#container header .sub-input{
+    width: 71%;
+    height: 50px;
+    float: left; 
+    padding-top: 10px;
+}
+#container header .sub-input ul{
+    list-style-type: none;
+}
+#container header .sub-input ul li{
+    color: white;
+    line-height: 40px;
+    width: 18%;
+    height: 40px;
+    display: inline-table;
+    font-size: 13px;
+}
+#container header .hr{
+    width: 100%;
+    height: 1px;
+    background-color: grey;
+    float: left;
+}
+#container header .menu{
+    width: 100%;
+    height: 50px;
+    float: left;
+}
+#container header .menu ul{
+    list-style-type: none;
+    text-align: center;
+}
+#container header .menu ul li{
+    display: inline-table;
+    margin: 10px;
+    font-size: 15px;
+    margin-top: 15px;
+}
+#container header .menu ul li a{
+    text-decoration: none;
+    color: white;
+}
+#container section{
+    width: 100%;
+    height: 100%;
+}
+#container section .tieu-de{
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    line-height: 30px;
+    font-size: 14px;
+    padding-top: 20px;
+}
+#container section .project{
+    width: 100%;
+    height: 100%;
+    padding-top: 3%;
+    text-align: center;
+}
+#container section .project #sample1{
+    width: 20%;
+    margin: 1%;
+    height: 95%;
+    display: inline-table;
+    font-size: 15px;
+    text-align: center;
+}
+#container section .project .tab1{
+    width: 5%;
+    height: 100%;
+}
+#container section .project #sample1 h4{
+    padding-top: 3%;
+}
+#container section .project #sample1 p{
+    padding-top: 4%;
+    font-size: 14px;
+}
+#container section .project #sample1:hover{
+    box-shadow: 0 0 5px rgb(114, 110, 110);
+    border-radius: 20px;
+    overflow: hidden;
+}
+#container section .image1{
+    width: 100%;
+    height: 500px;
+    float: left;
+    padding-top: 5%;
+    margin-bottom: 3%;
+}
+#container section .image1 #qc1{
+    width: 50%;
+    height: 270px;
+    padding: px;
+    float: left;
+    padding-left: 6.5%;
+}
+#container section .image1 #qc2{
+    width: 50%;
+    height: 270px;
+    float: left;
+    padding-right: 5.8%;
+    padding-left: 1.3%;
+}
+#container section .image1 #qc2 .banner1{
+    width: 46%;
+    height: 205px;
+    float: left;
+}
+#container section .image1 #qc2 .banner2{
+    width: 46%;
+    height: 205px;
+    float: left;
+    margin-left: 3%;
+}
+#container section .image1 #qc2 .banner3{
+    width: 46%;
+    height: 205px;
+    float: left;
+    margin-top: 3%;
+}
+#container section .image1 #qc2 .banner4{
+    width: 46%;
+    height: 205px;
+    float: left;
+    margin-left: 3%;
+    margin-top: 3%;
+}
+#container section .gioi-thieu{
+    width: 100%;
+    height: 80%;
+    float: left;
+}
+#container section .gioi-thieu #tieu-de1{
+    width: 100%;
+    height: 60px;
+    float: left;
+    text-align: center;
+}
+#container section .gioi-thieu #tieu-de1 h4{
+    padding-bottom: 4px;
+}
+#container section .gioi-thieu #tieu-de1 a{
+    text-decoration: none;
+    color:orangered;
+    font-size: 15px;
+}
+#container section .gioi-thieu #tieu-de1 a:hover{
+    text-decoration: underline;
+}
+#container section .gioi-thieu #san-pham1{
+    width: 12.5%;
+    height: 240px;
+    margin-left: 6.5%;
+    float: left;
+    text-align: center;
+}
+#container section .gioi-thieu #san-pham1 a{
+    text-decoration: none;
+    color: black;
+}
+#container section .gioi-thieu #san-pham1 a:hover{
+    color: orangered;
+}
+#container section .gioi-thieu #san-pham1 h5{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-top: 15px;
+}
+#container section .gioi-thieu #san-pham1 p{
+    color: orangered;
+    font-size: 13px;
+    padding-top: 3px;
+}
+#container section .gioi-thieu #san-pham2{
+    width: 12.5%;
+    height: 240px;
+    margin-left: 2%;
+    float: left;
+    text-align: center;
+}
+#container section .gioi-thieu #san-pham2 a{
+    text-decoration: none;
+    color: black;
+}
+#container section .gioi-thieu #san-pham2 a:hover{
+    color: orangered;
+}
+#container section .gioi-thieu #san-pham2 h5{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-top: 15px;
+}
+#container section .gioi-thieu #san-pham2 p{
+    color: orangered;
+    font-size: 13px;
+    padding-top: 3px;
+}
+#container section .gioi-thieu #san-pham2 span{
+    font-size: 11px;
+    text-decoration: line-through;
+    padding-left: 5%;
+    color: grey;
+}
+#container section .gioi-thieu #san-pham3{
+    width: 12.5%;
+    height: 240px;
+    margin-left: 2%;
+    float: left;
+    text-align: center;
+}
+#container section .gioi-thieu #san-pham3 a{
+    text-decoration: none;
+    color: black;
+}
+#container section .gioi-thieu #san-pham3 a:hover{
+    color: orangered;
+}
+#container section .gioi-thieu #san-pham3 h5{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-top: 15px;
+}
+#container section .gioi-thieu #san-pham3 p{
+    color: orangered;
+    font-size: 13px;
+    padding-top: 3px;
+}
+#container section .gioi-thieu #san-pham4{
+    width: 12.5%;
+    height: 240px;
+    margin-left: 2%;
+    float: left;
+    text-align: center;
+}
+#container section .gioi-thieu #san-pham4 a{
+    text-decoration: none;
+    color: black;
+}
+#container section .gioi-thieu #san-pham4 a:hover{
+    color: orangered;
+}
+#container section .gioi-thieu #san-pham4 h5{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    padding-top: 15px;
+}
+#container section .gioi-thieu #san-pham4 p{
+    color: orangered;
+    font-size: 13px;
+    padding-top: 3px;
+}
+#container section .QC1{
+    width: 85%;
+    margin-left: 6.5%;
+    height: 480px;
+    float: left;
+    margin-top: 30px;
+    border: solid 7px orangered;
+    margin-bottom: 3%;
+}
+#container section .QC1 #dong1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#container section .QC1 #dong1 .anh1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#container section .QC1 #dong1 .anh2{
+    width: 50%;
+    height: 100%;
+    float: left;
+    padding-top: 25%;
+}
+#container section .QC1 #dong1 .anh2 span{
+    font-size: 30px;
+}
+#container section .QC1 #dong1 .anh2 h1{
+    font-size: 45px;
+}
+#container section .QC1 #dong1 .anh2 p{
+    font-size: 16px;
+    color: gray;
+    line-height: 25px;
+    font-weight: normal;
+}
+#container section .QC1 #dong1 .anh2 button{
+    color: orangered;
+    font-size: 14px;
+    border-radius: 5px;
+    border: solid 1px orangered;
+    width: 50%;
+    height: 40px;
+    background-color: white;
+}
+#container section .QC1 #dong1 .anh2 button:hover{
+    background-color: orangered;
+    color: white;
+}
+#container section .QC1 #dong2{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#container section .QC1 #dong2 .sp1{
+    width: 31%;
+    height: 34%;
+    float: left;
+    text-align: center;
+    border-bottom: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+}
+#container section .QC1 #dong2 .sp2{
+    width: 31%;
+    height: 34%;
+    float: left;
+    text-align: center;
+    border-bottom: 1px solid gainsboro;
+    border-right: 1px solid gainsboro;
+}
+#container section .QC1 #dong2 .sp3{
+    width: 31%;
+    height: 34%;
+    float: left;
+    text-align: center;
+    border-bottom: 1px solid gainsboro;
+}
+#container section .QC1 #dong2 .sp4{
+    width: 31%;
+    height: 34%;
+    float: left;
+    text-align: center;
+    border-right: 1px solid gainsboro;
+}
+#container section .QC1 #dong2 .sp5{
+    width: 31%;
+    height: 34%;
+    float: left;
+    text-align: center;
+    border-right: 1px solid gainsboro;
+}
+#container section .QC1 #dong2 .sp6{
+    width: 31%;
+    height: 34%;
+    float: left;
+    text-align: center;
+}
+#container section .QC1 #dong2 h6 a{
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}
+#container section .QC1 #dong2 a:hover{
+    color: orangered;
+}
+#container section .QC1 #dong2 .sp1,.sp2,.sp3{
+    margin-top: 15%;
+}
+#container section .QC2{
+    width: 88%;
+    height: 26%;
+    float: left;
+    padding-top: 5%;
+    margin-left: 6.5%;
+}
+#container section .QC2 #dong1{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#container section .QC2 #dong2{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+#container section .tai-tro{
+    width: 100%;
+    height: 200px;
+    float: left;
+    padding-top: 3%;
+}
+#container section .tai-tro #dong1{
+    width: 100%;
+    height: 55%;
+    background-color: white;
+    float: left;
+    padding-left: 6.5%;
+}
+#container section .tai-tro #dong1 div{
+    display: inline-block;
+    width:  8.5%;
+    margin: 0.2%;
+    height: 85%;
+}
+#container section .tai-tro #dong2{
+    width: 88%;
+    height: 45%;
+    background-color: skyblue;
+    float: left;
+    margin-left: 6.5%;
+    padding-top: 1%;
+}
+#container section .tai-tro #dong2 .cot1{
+    width: 50%;
+    height: 70%;
+    float: left;
+}
+#container section .tai-tro #dong2 .cot2{
+    width: 47.5%;
+    height: 70%;
+    float: left;
+    display: inline-table;
+    background-color: white;
+    border-radius: 5px;
+    overflow: hidden;
+    border: hidden;
+}
+#container section .tai-tro #dong2 h3{
+    color: white;
+}
+#container section .tai-tro #dong2 p{
+    font-size: 11px;
+    color: white;
+}
+#container section .tai-tro #dong2 input{
+    height: 100%;
+    width: 90%;
+    padding-left: 3%;
+    outline: none;
+    border: hidden;
+}
+#container section .tai-tro #dong2 button{
+    width: 10%;
+    height: 100%;
+    border: hidden;
+    background-color: orangered;
+    color: white;
+    border-radius: 5px;
+}
+#container footer{
+    height: 50%;
+    width: 100%;
+    float: left;
+    background-color: rgb(4, 53, 53);
+}
+#container footer .final{
+    width: 88%;
+    height: 100%;
+    margin-left: 6.5%;
+    margin-top: 3%;
+}
+#container footer .final #dong1{
+    width: 23%;
+    margin: 1%;
+    float: left;
+}
+#container footer .final #dong1 ul{
+    list-style-type: none;
+}
+#container footer .final #dong1 ul li{
+    width: 95%;
+    height: 90%;
+    line-height: 25px;
+}
+#container footer .final #dong1  h3{
+    color: white;
+}
+#container footer .final #dong1 ul li a{
+    text-decoration: none;
+    color: gray;
+    font-size: 14px;
+}
+#container footer .final #dong1 .hot li{
+    display: inline-table;
+    width: 13%;
+    height: 50%;
+    position: relative;
+}
+#container footer .final #dong1 ul li a:hover{
+    color: white;
+}
+#container footer .final #hr2{
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    float: left;
+}
+#container footer .final #dong5{
+    width: 100%;
+    height: 9%;
+    float: left;
+    text-align: center;
+    color: white;
+    font-size: 13px;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+#container footer .final #dong5 p a{
+    text-decoration: none;
+    color: white;
+}
+#container footer .final #dong5 p a:hover{
+    color: orangered;
+}
+    </style>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <div class="logo">
+                <i class="fa fa-quora" aria-hidden="true"></i>
+                <span>SHOP</span>
+            </div>
+            <div class="input">
+                <div id="input1">
+                    <form action="">
+                        <select name="form" id="">
+                            <option>Tất cả</option>
+                            <option>GIảm giá</option>
+                            <option>Khử mùi</option>
+                            <option>Dưỡng da</option>
+                            <option>Sữa tắm</option>
+                            <option>Thực phẩm</option>
+                            <option>Chuyên dụng</option>
+                        </select>
+                            <input type="search" placeholder="Bạn muốn mua gì?" name="search"/>
+                            <button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+                    </form>
+                </div>
+                <div id="input2">
+                    <button><i id="img1" class="fa fa-user-o" aria-hidden="true"></i></button>
+                </div>    
+                <div id="input3"> 
+                    <strong>0123456789<br>Tư vấn hỗ trợ bán hàng</strong>
+                </div>
+                <div id="input4">
+                    <button><i id="img2" class="fa fa-shopping-bag" aria-hidden="true"></i></button>
+                </div>
+            </div>
+            <div class="sub-input">
+                <ul>
+                <li><a href="#"></a><i class="fa fa-truck" aria-hidden="true"></i> Miễn phí giao hàng</li>
+                <li><a href="#"></a><i class="fa fa-reply" aria-hidden="true"></i> Dễ dàng đổi trả</li>    
+                <li><a href="#"></a><i class="fa fa-money" aria-hidden="true"></i> Thanh toán tiền mặt</li>
+                </ul>
+            </div>
+            <div class="hr"></div>
+            <div class="menu">
+
+                <ul>
+                    <li><a href="#">Thực phẩm</a></li>
+                    <li><a href="#">Mobile & Tablet</a></li>
+                    <li><a href="#">Thời trang</a></li>
+                    <li><a href="#">Điện tử & Công nghệ</a></li>
+                    <li><a href="#">Điện tử & Công nghệ</a></li>
+                    <li><a href="#">Nhà cửa & Đời sống</a></li>
+                    <li><a href="#">Tin tức</a></li>
+                    <li><a href="#">Tính năng nổi bật</a></li>
+                    <li><a href="#">Liên hệ</a></li>
+                </ul>
+
+            </div>
+        </header>
+        <section>
+            <div class="picture">
+                
+                <img alt="New Collection" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-f8tVHCR11_Y/WZajGCpljoI/AAAAAAAAEiw/JdEs-r647u4_s8mQLZ1W4AfmgBOb5lvAACLcBGAs/s1600/slider_1.jpg" width="100%" height="470px">
+            
+            </div>
+            <div class="tieu-de">
+
+                <h3>DANH MỤC NỔI BẬT</h3>
+                <p>Bách Hóa Xanh là mô hình đại siêu thị điện tử - "tất cả trong một".</p>
+            
+            </div>
+            <div class="project">
+                <div id="tab1"></div>
+                <div id="sample1" >
+
+                    <img alt="Thực phẩm" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-QdKVCAFlqV0/WZajRS1v34I/AAAAAAAAEi0/PQh_3xDysmwae0wBkrib_BA1FLn1IdvmACLcBGAs/s1600/thuc-pham.jpg" width="98%" height="70%">
+                    <h4>Thực phẩm</h4>
+                    <p>Thực phẩm an toàn đang là một vấn đề lớn trong cuộc sống hằng ngày. ...</p>
+                
+                </div>
+                <div id="sample1">
+
+                    <img alt="Mobile &amp; Tablet" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-GnLMs-4eZSY/WZajiptDtbI/AAAAAAAAEi4/nYf2BH4Etjgp1z2-6f6cfhL4OH7mZxB_gCLcBGAs/s1600/dien-thoai.jpg" width="98%" height="70%">
+                    <h4>Mobile & Tablet</h4>
+                    <p>Điện thoại đi động và máy tính bảng đã đem đến cho cuộc sống con...</p>
+
+                </div>
+                <div id="sample1">
+
+                    <img alt="Thời trang" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-p8xNPquDrWc/WZajq2FP8AI/AAAAAAAAEi8/anFsoer1fMY2TsoJvG1xULFrB2Xc6DGoQCLcBGAs/s1600/thoi-trang.jpg" width="98%" height="70%">
+                    <h4>Thời trang</h4>
+                    <p>Mua sắm thời trang là một nhu cầu lớn của tất cả mọi người vì vẻ ngoài...</p>
+
+                </div>
+                <div id="sample1" class="tab2">
+
+                    <img alt="Điện tử &amp; Công nghệ" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-vBt1_X1iWUA/WZaj0XIK7tI/AAAAAAAAEjA/VF22hGARYEs0HlsGtpNYEBJu3qBoczqSACLcBGAs/s1600/cong-nghe.jpg" width="98%" height="70%">
+                    <h4>Điện tử & Công nghệ</h4>
+                    <p>Đồ điện tử, đồ công nghệ là những thiết bị không thể thiếu trong đời sống, giúp...</p>
+
+                </div>
+                <div id="tab2"></div>
+            </div>
+            <div class="image1">
+                <div id="qc1">
+                    <a href="#">
+                        <img alt="Banner 1" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-Su0snMCQAQQ/WZaj9FMVcSI/AAAAAAAAEjE/-_IIp8DxL6wLpcPWorwceSfkmhbFCLZpwCLcBGAs/s1600/index_banner_1.jpg" width=98% height="155%">
+                    </a>
+                </div>
+                <div id="qc2">
+                    <div class="banner1">
+                        <a href="#">
+                            <img alt="Banner2" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-UOlTIehAq4w/WZakbtaAnUI/AAAAAAAAEjQ/TELMJ--OOScsIO6D5uCekAXoE62H_a38QCLcBGAs/s1600/index_banner_2.jpg" width="98%" height="95%">
+                        </a>
+                    </div>
+                    <div class="banner2">
+                        <a href="#">
+                            <img alt="Banner3" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-iT8FEdHIvNw/WZakbvTuDvI/AAAAAAAAEjI/4y6Q7Ez8NNkcdPtEsn1LYwfsrPBDRSKdQCLcBGAs/s1600/index_banner_3.jpg" width="98%" height="95%">
+                        </a>
+                    </div>
+                    <div class="banner3">
+                        <a href="#">
+                            <img alt="Banner4" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-SZ815qZn86o/WZakblsRjLI/AAAAAAAAEjM/XMOzzKuQXigGpsNGwqphSCKv4AZEBPpRACLcBGAs/s1600/index_banner_4.jpg" width="98%" height="95%">
+                        </a>
+                    </div>
+                    <div class="banner4">
+                        <a href="#">
+                            <img alt="Banner5" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-hcKNMWATPPE/WZakb8go4SI/AAAAAAAAEjY/Ye29g9soQX0sZwuIvRD1kvyLO00NuYFQgCLcBGAs/s1600/index_banner_5.jpg" width="98%" height="95%">
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="gioi-thieu">
+                <div id="tieu-de1">
+
+                    <h4>SẢN PHẨM BÁN CHẠY</h4>
+                    <a href="#">Xem thêm</a>
+
+                </div>
+                <div id="san-pham1">
+                    <a href="#" title="Giày Chuck Taylor All Star II">
+                        <img src="https://lh4.googleusercontent.com/-jQK0FyKYohw/WZgdS8humOI/AAAAAAAACFU/7UKB_CCLDnkPCqmS2xkN7YWP1B1pUb37gCLcBGAs/s320/6361c10dada534910bdb35492dbf26.jpg" alt="Giày Chuck Taylor All Star II" class="img-responsive center-block" width="95%" height="75%">
+                    </a>
+                    <a href="#"><h5>Giày Chuck Taylor All Star II</h5></a>
+                    <p>790,000đ₫</p>
+                </div>
+                <div id="san-pham2">
+                    <a href="#">
+                        <img src="https://lh4.googleusercontent.com/-s4XDKcu1zSw/WZgc-imUjZI/AAAAAAAACFQ/7Tx2j-eRs_caQugtovMSvuciABX6kPCkwCLcBGAs/s320/iphone78400x460.png" alt="Điện thoại iPhone 7 32G" class="img-responsive center-block" width="95%" height="75%">
+                    </a>
+                    <a href="#"><h5>Điện thoại iPhone 7 32G</h5></a>
+                    <p>22,290,000đ₫<span>24,320,000đ</span></p>
+                </div>
+                <div id="san-pham2">
+                    <a href="#">
+                        <img src="https://lh4.googleusercontent.com/-dpn5CXBHLRY/WZgc17Evq2I/AAAAAAAACFM/mtcThTk2soEEBL0NWAlnesxfYWMm33bJwCLcBGAs/s320/1489203758462871031.jpg" alt="Cải xanh VinEco" class="img-responsive center-block" width="95%" height="75%">
+                    </a>
+                    <a href="#"><h5>Cải xanh VinEco</h5></a>
+                    <p>290,000₫<span>320,000đ</span></p>
+                </div>
+                <div id="san-pham3">
+                    <a href="#">
+                        <img src="https://lh4.googleusercontent.com/-_ol-8QFLPRQ/WZgcpkxf87I/AAAAAAAACFI/qdkc6FMlIZo28g0xdPW1cQ-Bw2siLrfwwCLcBGAs/s320/omggafeikm6aqb-paac8ov7rcrm125.jpg" alt="Kem chống nắng AHA" class="img-responsive center-block" width="95%" height="75%">
+                    </a>
+                    <a href="#"><h5>Kem chống nắng AHA</h5></a>
+                    <p>290,000đ₫</p>
+                </div>
+                <div id="san-pham4">
+                    <a href="#">
+                        <img src="https://lh4.googleusercontent.com/-pJ282nIoBiU/WZgcYUpU7PI/AAAAAAAACFE/8mixNM1Fr7AwfKkdArsGWxGq28H161zAwCLcBGAs/s320/natural-sun-eco-ice-air-puff-1-600x600-master.jpg" alt="Kem dưỡng da AHA" class="img-responsive center-block" width="95%" height="75%">
+                    </a>
+                    <a href="#"><h5>Kem dưỡng da AHA</h5></a>
+                    <p>290,000đ₫
+                    </p>
+                </div>
+                <div id="san-pham2">
+                    <a href="#">
+                        <img src="https://lh4.googleusercontent.com/-Nargx3Nwss4/WZgcGe-7fKI/AAAAAAAACFA/YdE4qy7KZBMottjbQtnDVcSzqdWrAxvdwCLcBGAs/s320/14813479347237379487.jpg" alt="Mũ bảo hiểm 3/4 CT1-DAMMTRAX" class="img-responsive center-block" width="95%" height="75%">
+                    </a>
+                    <a href="#"><h5>Mũ bảo hiểm 3/4 CT1-DAMMTRAX</h5></a>
+                    <p>290,000đ₫<span>320,000đ</span></p>
+                </div>
+                <div id="san-pham1">
+                    <a href="#">
+                        <img src="https://lh4.googleusercontent.com/-e09_aGvGegs/WZgb37UroKI/AAAAAAAACE8/pg6JupUu4iUs9KFg9Js2CiSMr-40RehAgCLcBGAs/s320/14784910147754246324.jpg" alt="Bình giữ nhiệt lưỡng tính " class="img-responsive center-block" width="95%" height="75%">
+                    </a>
+                    <a href="#"><h5>Bình giữ nhiệt lưỡng tính</h5></a>
+                    <p>290,000đ₫</p>
+                </div>
+                <div id="san-pham3">
+                    <a href="#">
+                        <img src="https://lh4.googleusercontent.com/-_xf0A2LZUsQ/WZgbkxksFkI/AAAAAAAACE4/jDyMCXknPnAWNr3NoL8SyqzcGkmpt2pOQCLcBGAs/s320/5017689352104009011.jpg" alt="Bộ hộp cơm Lock&amp;Loc" class="img-responsive center-block" width="95%" height="75%">
+                    </a>
+                    <a href="#"><h5>Bộ hộp cơm Lock&Loc</h5></a>
+                    <p>290,000đ₫</p>
+                </div>
+                <div id="san-pham2">
+                    <a href="#">
+                        <img src="https://lh4.googleusercontent.com/-O0g5OfFNcVc/WZgbSnFtyKI/AAAAAAAACE0/m_K78puJfdU02WA0MQQMvLwshbP-ydVRACLcBGAs/s320/14836916728333196868.jpg" alt="Android TV LED Full HD Sharp" class="img-responsive center-block" width="95%" height="75%">
+                    </a>
+                    <a href="#"><h5>Android TV LED Full HD Sharp</h5></a>
+                    <p>11,990,000đ₫<span>12,120,000đ</span></p>
+                </div>
+                <div id="san-pham2">
+                    <a href="#">
+                        <img src="https://lh4.googleusercontent.com/-QLAGyZI8bWA/WZga1gYa4YI/AAAAAAAACEw/X8yD99hb2E41CEjUyo7dtjbfAkYRYmH5QCLcBGAs/s320/19465tvsonykdl43w800c1.jpg" alt="Smart TV LED 3D Sony 43 inch" class="img-responsive center-block" width="95%" height="75%">
+                    </a>
+                    <a href="#"><h5>Smart TV LED 3D Sony 43 inch</h5></a>
+                    <p>11,990,000đ₫<span>13,000,000đ</span></p>
+                </div>
+                <div id="san-pham4">
+                    <a href="#">
+                        <img src="https://lh4.googleusercontent.com/-irtqaJG34Pg/WZgaQYAW9mI/AAAAAAAACEo/NttAAIHa94QPX5uZWE479KpT5nwTRc8EwCLcBGAs/s320/14888617711017645448.jpg" alt="Sofa vải 2 chỗ H-Satino 140 x 75 x 68 cm" class="img-responsive center-block" width="95%" height="75%">
+                    </a>
+                    <a href="#"><h5>Sofa vải 2 chỗ H-Satino 140 x 75 x 68 cm</h5></a>
+                    <p>1,990,000đ₫</p>
+                </div>
+                <div id="san-pham4">
+                    <a href="#">
+                        <img src="https://lh4.googleusercontent.com/-UuSm-fC6iyA/WZgXMcpmWNI/AAAAAAAACEQ/GVIW6SJio9g0XcesmKDWL9kAJEmmF2zAQCLcBGAs/s320/636264839959193243800truoc.jpg" alt="Samsung Galaxy S8" class="img-responsive center-block" width="95%" height="75%">
+                    </a>
+                    <a href="#"><h5>Samsung Galaxy S8</h5></a>
+                    <p>19,990,000đ₫</p>
+                </div>
+            </div>
+            <div class="QC1">
+                <div id="dong1">
+                    <div class="anh1">
+                        <img alt="Cân đối" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-gbq0Kq-4bDE/WZak07X9tQI/AAAAAAAAEjc/-qRVLAkSsh8e6uwO9qCWn10mVKNAeSgHwCLcBGAs/s1600/promotion_image.png" width="100%" height="100%">
+                    </div>
+                    <div class="anh2">
+                        <span> Cân đối</span><br>
+                        <h1>VÀ QUYẾN RŨ<h1>
+                        <p>Tập thể dục là nhu cầu cơ bản của con người, dù bạn là phái mạnh hay phái đẹp.</p>
+                        <button type="submit">XEM THÊM</button>
+                    </div>
+                </div>
+                <div id="dong2">
+                    <div class="sp1">
+                        <a href="#">
+                            <img alt="Giày Nam" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-ld8Du7bgFoo/WZalZHixeJI/AAAAAAAAEjk/CoZdBiNS46c7qMsKikyC6NWI74iCKw4wgCLcBGAs/s1600/g-nam.jpg" width="100%" height="80%">
+                        </a>
+                        <h6>
+                            <a href="#">Giày Nam</a>
+                        </h6>
+                   </div>
+                   <div class="sp2">
+                        <a href="#">
+                            <img alt="Giày Nữ" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-6hSCDsDlD-c/WZalkNCOEJI/AAAAAAAAEjo/TyZnsJu0xMQOeYUYsAiYN57xms6UdpziQCLcBGAs/s1600/g-nu.jpg" width="100%" height="80%">
+                        </a>
+                        <h6>
+                            <a href="#">Giày Nữ</a>
+                        </h6>
+                    </div>
+                    <div class="sp3">
+                        <a href="#">
+                            <img alt="Luyện tập" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-68unosI4r2Y/WZaltwGfWyI/AAAAAAAAEjs/WBWZgg9MFQwKKIc0LRJ98NRsXgwGRoqXACLcBGAs/s1600/ltap.jpg" width="100%" height="80%">
+                        </a>
+                        <h6>
+                            <a href="#">Luyện tập</a>
+                        </h6>
+                    </div>    
+                    <div class="sp4">
+                        <a href="#">
+                            <img alt="Dinh dưỡng" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-BLHUAZEctus/WZal-aA_diI/AAAAAAAAEjw/OR3Ltyp3t38muO5P7EVxquKk5QKNpxzjgCLcBGAs/s1600/dduong.jpg" width="100%" height="90%">
+                        </a>
+                        <h6>
+                            <a href="#">Dinh dưỡng</a>
+                        </h6>
+                    </div>   
+                    <div class="sp5">
+                        <a href="#">
+                            <img alt="Tăng cân" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-D1U6cGv8W-A/WZamFxlz-dI/AAAAAAAAEj0/el7dcCS_O7IulFNuG183Ff4fOWYy9iUiQCLcBGAs/s1600/tcan.jpg" width="100%" height="90%">
+                        </a>
+                        <h6>
+                            <a href="#">Tăng cân</a>
+                        </h6>
+                    </div>
+                    <div class="sp6">
+                        <a href="#">
+                            <img alt="Phụ kiện" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-pivL7TISbLI/WZamN4BlBJI/AAAAAAAAEj4/psy8WJEsiTYilVzl6Rli7GYifCYOJo57gCLcBGAs/s1600/pkien.jpg" width="100%" height="90%">                                </a>
+                        </a>
+                        <h6>
+                            <a href="#">Phụ kiện</a>
+                        </h6>
+                    </div>
+                </div>
+            </div>
+            <div class="gioi-thieu">
+                <div id="tieu-de1">
+
+                    <h4>SẢN PHẨM MỚI</h4>
+                    <a href="#">Xem thêm</a>
+
+                </div>
+                <div id="san-pham1">
+                    <a href="#" title="Giày Chuck Taylor All Star II">
+                        <img src="https://lh4.googleusercontent.com/-jQK0FyKYohw/WZgdS8humOI/AAAAAAAACFU/7UKB_CCLDnkPCqmS2xkN7YWP1B1pUb37gCLcBGAs/s320/6361c10dada534910bdb35492dbf26.jpg" alt="Giày Chuck Taylor All Star II" class="img-responsive center-block" width="95%" height="75%">
+                    </a>
+                    <a href="#"><h5>Giày Chuck Taylor All Star II</h5></a>
+                    <p>790,000đ₫</p>
+                </div>
+                <div id="san-pham2">
+                    <a href="#">
+                        <img src="https://lh4.googleusercontent.com/-s4XDKcu1zSw/WZgc-imUjZI/AAAAAAAACFQ/7Tx2j-eRs_caQugtovMSvuciABX6kPCkwCLcBGAs/s320/iphone78400x460.png" alt="Điện thoại iPhone 7 32G" class="img-responsive center-block" width="95%" height="75%">
+                    </a>
+                    <a href="#"><h5>Điện thoại iPhone 7 32G</h5></a>
+                    <p>22,290,000đ₫<span>24,320,000đ</span></p>
+                </div>
+                <div id="san-pham2">
+                    <a href="#">
+                        <img src="https://lh4.googleusercontent.com/-dpn5CXBHLRY/WZgc17Evq2I/AAAAAAAACFM/mtcThTk2soEEBL0NWAlnesxfYWMm33bJwCLcBGAs/s320/1489203758462871031.jpg" alt="Cải xanh VinEco" class="img-responsive center-block" width="95%" height="75%">
+                    </a>
+                    <a href="#"><h5>Cải xanh VinEco</h5></a>
+                    <p>290,000₫<span>320,000đ</span></p>
+                </div>
+                <div id="san-pham3">
+                    <a href="#">
+                        <img src="https://lh4.googleusercontent.com/-_ol-8QFLPRQ/WZgcpkxf87I/AAAAAAAACFI/qdkc6FMlIZo28g0xdPW1cQ-Bw2siLrfwwCLcBGAs/s320/omggafeikm6aqb-paac8ov7rcrm125.jpg" alt="Kem chống nắng AHA" class="img-responsive center-block" width="95%" height="75%">
+                    </a>
+                    <a href="#"><h5>Kem chống nắng AHA</h5></a>
+                    <p>290,000đ₫</p>
+                </div>
+                <div id="san-pham4">
+                    <a href="#">
+                        <img src="https://lh4.googleusercontent.com/-pJ282nIoBiU/WZgcYUpU7PI/AAAAAAAACFE/8mixNM1Fr7AwfKkdArsGWxGq28H161zAwCLcBGAs/s320/natural-sun-eco-ice-air-puff-1-600x600-master.jpg" alt="Kem dưỡng da AHA" class="img-responsive center-block" width="95%" height="75%">
+                    </a>
+                    <a href="#"><h5>Kem dưỡng da AHA</h5></a>
+                    <p>290,000đ₫
+                    </p>
+                </div>
+                <div id="san-pham2">
+                    <a href="#">
+                        <img src="https://lh4.googleusercontent.com/-Nargx3Nwss4/WZgcGe-7fKI/AAAAAAAACFA/YdE4qy7KZBMottjbQtnDVcSzqdWrAxvdwCLcBGAs/s320/14813479347237379487.jpg" alt="Mũ bảo hiểm 3/4 CT1-DAMMTRAX" class="img-responsive center-block" width="95%" height="75%">
+                    </a>
+                    <a href="#"><h5>Mũ bảo hiểm 3/4 CT1-DAMMTRAX</h5></a>
+                    <p>290,000đ₫<span>320,000đ</span></p>
+                </div>
+            </div>
+            <div class="QC2">
+                <div id="dong1">
+                    <a href="#">
+                        <img alt="#" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-pmaTVYI6BXo/WZama4Ska7I/AAAAAAAAEkA/cvhBvbYKKnIBHFXUWcY5Vivh7Ev_LRZ8QCLcBGAs/s1600/index_bottom_banner_1.jpg" width="95%" height="100%">   
+                    </a>
+                </div>
+                <div id="dong2">
+                    <a href="#">
+                        <img alt="#" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-tzWrptvRtvM/WZamao7EYAI/AAAAAAAAEj8/9K9g6q5MtqAdyXsr_b464W8wu-VkPIm0wCLcBGAs/s1600/index_bottom_banner_2.jpg" width="95%" height="100%">
+                    </a>
+                </div>
+            </div>
+            <div class="tai-tro">
+                <div id="dong1">
+                    <div>
+                        <a href="#">
+                            <img alt="#" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-1DHnaDxtMX8/WZam1ehRMlI/AAAAAAAAEkU/sV3AJxMYXNkiGwQY9cp0GYrw4glAQmrHwCLcBGAs/s1600/partner_1.jpg" width="100%" height="100%">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img alt="Tide" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-q6o3bNoGaSE/WZam1seAHSI/AAAAAAAAEkE/-WDpPn3DtaMKgSJ2Z8HSMNwp2_GBDBy-QCLcBGAs/s1600/partner_2.jpg" width="100%" height="100%">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img alt="7 eleven" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-hXblXNjiLcs/WZam1lzCIoI/AAAAAAAAEkI/Tt-o3yqmGhcDZJlv--xwg_ATTZ2aOVfvQCLcBGAs/s1600/partner_3.jpg" width="100%" height="100%">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img alt="Charmin" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-1XfWzNfwHdA/WZam2A-1LbI/AAAAAAAAEkM/gvqQ-BUS5ekozbtmFLhjfJTFfwP-snLWACLcBGAs/s1600/partner_4.jpg" width="100%" height="100%">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img alt="Dove" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-Tad3h-VWcC4/WZam2Ap7zVI/AAAAAAAAEkQ/j59nwGyTRjUG5Lw-d850kjpx_AbwUmIzwCLcBGAs/s1600/partner_5.jpg" width="100%" height="100%">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img alt="#" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-1DHnaDxtMX8/WZam1ehRMlI/AAAAAAAAEkU/sV3AJxMYXNkiGwQY9cp0GYrw4glAQmrHwCLcBGAs/s1600/partner_1.jpg" width="100%" height="100%">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img alt="#" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-q6o3bNoGaSE/WZam1seAHSI/AAAAAAAAEkE/-WDpPn3DtaMKgSJ2Z8HSMNwp2_GBDBy-QCLcBGAs/s1600/partner_2.jpg" width="100%" height="100%">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img alt="#" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-hXblXNjiLcs/WZam1lzCIoI/AAAAAAAAEkI/Tt-o3yqmGhcDZJlv--xwg_ATTZ2aOVfvQCLcBGAs/s1600/partner_3.jpg" width="100%" height="100%">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img alt="Charmin" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-1XfWzNfwHdA/WZam2A-1LbI/AAAAAAAAEkM/gvqQ-BUS5ekozbtmFLhjfJTFfwP-snLWACLcBGAs/s1600/partner_4.jpg" width="100%" height="100%">
+                        </a>
+                    </div>
+                    <div>
+                        <a href="#">
+                            <img alt="Dove" class="img-responsive center-block" src="https://lh4.googleusercontent.com/-Tad3h-VWcC4/WZam2Ap7zVI/AAAAAAAAEkQ/j59nwGyTRjUG5Lw-d850kjpx_AbwUmIzwCLcBGAs/s1600/partner_5.jpg" width="100%" height="100%">
+                        </a>
+                    </div>
+                </div>
+                <div id="dong2">
+                    <div class="cot1">
+                        <h3>ĐĂNG KÝ NHẬN THÔNG TIN ƯU ĐÃI VÀ KHUYẾN MÃI</h3>
+                        <p><i>Thông tin của bạn sẽ được bảo mật tuyệt đối và bạn có thể hủy đăng ký bất cứ lúc nào.</i></p>
+                    </div>
+                    <div class="cot2">
+                        <input type="email" name="email" placeholder="Nhập địa chỉ Email...">
+                        <button type="submit"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="final">
+                <div id="dong1">
+                    <h3>HỖ TRỢ KHÁCH HÀNG</h3><br>
+                    <ul>
+                        <li><a href="#">Các câu hỏi thường gặp</a></li>
+                        <li><a href="#">Gửi yêu cầu hỗ trợ</a></li>
+                        <li><a href="#">Hướng dẫn đặt hàng</a></li>
+                        <li><a href="#">Phương thức vận chuyển</a></li>
+                        <li><a href="#">Chính sách đổi trả</a></li>
+                        <li><a href="#">Hướng dẫn mua trả góp</a></li>
+                    </ul>
+                </div>
+                <div id="dong1">
+                    <h3>VỀ BÁCH HÓA XANH</h3><br>
+                    <ul>
+                        <li><a href="#">Giới thiệu</a></li>
+                        <li><a href="#">Tuyển dụng</a></li>
+                        <li><a href="#">Chính sách bảo mật</a></li>
+                        <li><a href="#">Điều khoản sử dụng</a></li>
+                        <li><a href="#">Ưu đãi doanh nghiệp</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                    </ul>
+                </div>
+                <div id="dong1">
+                    <h3>HỢP TÁC</h3><br>
+                    <ul>
+                        <li><a href="#">Bảo vệ người mua</a></li>
+                        <li><a href="#">Giải quyết khiếu nại</a></li>
+                        <li><a href="#">Hướng dẫn người mua</a></li>
+                        <li><a href="#">Quy chế hoạt động</a></li>
+                    </ul>
+                </div>
+                <div id="dong1">
+                    <h3>KẾT NỐI VỚI CHÚNG TÔI</h3><br>
+                    <ul class="hot">
+                        <li><a href="#"><i aria-hidden="true" class="fa fa-facebook"></i></a></li>
+                        <li><a href="#"><i aria-hidden="true" class="fa fa-google-plus"></i></a></li>
+                        <li><a href="#"><i aria-hidden="true" class="fa fa-twitter"></i></a></li>
+                        <li><a href="#"><i aria-hidden="true" class="fa fa-instagram"></i></a></li>
+                        <li><a href="#"><i aria-hidden="true" class="fa fa-pinterest-p"></i></a></li>
+                    </ul><br>
+                    <h3>TẢI ỨNG DỤNG</h3><br>
+                    <ul>
+                        <li><a href="#"><img alt="Bách hóa xanh" class="img-responsive" src="https://lh4.googleusercontent.com/-Yio-oDASM2g/WZanig9xqXI/AAAAAAAAEkg/lVyJ5M7rpBghr5HwhYomBPMbzzX-xsW-ACLcBGAs/s1600/android.png" width="55%" height="70%"></a></li>
+                        <li><a href="#"><img alt="Bách hóa xanh" class="img-responsive" src="https://lh4.googleusercontent.com/-rvDyxuMAz1k/WZaniSKOOuI/AAAAAAAAEkc/-D0GKv1Am6kInAYLhU0QqaXweAdagOQYQCLcBGAs/s1600/ios.png" width="55%" height="70%"></a></li>
+                    </ul>
+                </div>
+                <div id="hr2"></div>
+                <div id="dong5">
+                    <p>© Bản quyền thuộc về <strong>Bách Hóa Xanh</strong> | Cung cấp bởi <a href="#">Giaodienblog.com</a></p>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
